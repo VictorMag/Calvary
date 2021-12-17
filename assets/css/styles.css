@@ -465,7 +465,7 @@ input {
 }
 
 .discover__title {
-  color: #b87333;
+  color: var(--white-color);
 }
 
 .discover__description {
