@@ -1083,6 +1083,12 @@ input {
   }
   .home__container,
   .home__img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 20%;
     height: 640px;
   }
 }
