@@ -517,6 +517,34 @@ input {
   background-image: none;
 }
 
+/* ============== Sermones =================  */
+.full-container {
+  display: flex; /* Utiliza flexbox para centrar el contenido */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  width: 100%;
+  height: 100%;
+}
+
+.grid-layout {
+  display: grid;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  display: flex; /* Flexbox en el contenedor de la imagen para centrarla */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.full-image {
+  width: 80vw;
+  height: 100%;
+  object-fit: cover; /* Hace que la imagen cubra todo el contenedor sin distorsionarse */
+}
+
+
 /*=============== EXPERIENCE ===============*/
 .experience__container {
   row-gap: 2.5rem;
