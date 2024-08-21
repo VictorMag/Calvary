@@ -473,6 +473,45 @@ input {
   margin-bottom: var(--mb-2);
 }
 
+/*=============== ANCIANOS =============== */
+.elder-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.elder {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.elder img {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+.belief__description__elder {
+  max-width: 100%;
+}
+
+/* Media query para pantallas más pequeñas, como la vista de celular */
+@media (max-width: 767px) {
+  .elder {
+    flex-basis: 100%; /* Cambia la base flexible a 100% para ocupar toda la anchura */
+  }
+}
+
+
+
+
+
 /*=============== DISCOVER ===============*/
 .discover__card {
   position: relative;
@@ -608,6 +647,7 @@ input {
 .video__description {
   text-align: center;
   margin-bottom: var(--mb-2-5);
+  font-size: var(--h2-font-size);
 }
 
 .video__content {
