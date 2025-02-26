@@ -127,15 +127,15 @@
 
       <!--==================== EXPERIENCE ====================-->
       <section class="experience section" id="beliefs">
-        <h2 class="section__title">Our Current Series: James Practical Faith<br /></h2>
+        <h2 class="section__title">Our Current Series: KERIGMA<br /></h2>
         <p class="video__description">
-          Join us Sundays at 10 am. 
+          Join us Sundays at 10:30 am. 
         </p>
 
         <div class="full-container grid-layout">
           <div class="image-container grid-layout">
             <div class="image-overlay">
-              <img src="./assets/img/james.png" class="full-image"
+              <img src="./assets/img/KERIGMA.png" class="full-image"
               />
             </div>
           </div>
@@ -553,7 +553,7 @@
 
         <div class="footer__rights">
           <p class="footer__copy">
-            &#169; 2023 Calvary Community Church. All rigths reserved.
+            &#169; <span id="currentYear"></span> Calvary Community Church. Todos Los Derechos Reservados.
           </p>
           <div class="footer__terms">
             <a href="#" class="footer__terms-link">Terms & Agreements</a>
@@ -578,3 +578,9 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
+
+<script>
+  // Obtener el año actual
+  const currentYear = new Date().getFullYear();
+  document.getElementById('currentYear').textContent = currentYear;
+</script>
