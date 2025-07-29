@@ -869,6 +869,11 @@ input {
   color: var(--text-color);
 }
 
+.logoSN{
+  width: 12rem;
+  height: auto;
+}
+
 /*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
